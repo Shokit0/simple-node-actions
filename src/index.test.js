@@ -1,9 +1,9 @@
 const {add} = require('./index');
 
-test('adds 1 + 2 to equal 3',() => {
-    expect(add(1, 2)).toBe(3);
+test('adds 7 * 9 to equal 63',() => {
+    expect(add(7, 9)).toBe(63);
 });
 
-test('adds 5 + 7 to equal 12',() => {
-    expect(add(5, 7)).toBe(12);
+test('adds 2 * 9 to equal 18',() => {
+    expect(add(2, 9)).toBe(18);
 });
